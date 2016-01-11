@@ -7,5 +7,6 @@
 ### 參考：
 + [黃彬華老師](https://sites.google.com/site/ronforwork/)
 + [路線規劃](http://wptrafficanalyzer.in/blog/driving-route-from-my-location-to-destination-in-google-maps-android-api-v2/)
++ [警政署測速執法設置點](http://crimevideo.npa.gov.tw/TrafficStick/TrafficStick.asp?DB_Selt=Selt)
 
 > 記得修改 build.gradle 的 dependencies 和 AndroidManifest 的 API key
