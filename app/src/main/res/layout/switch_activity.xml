@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onMapCkick"
+                android:src="@drawable/map"/>
+            <TextView
+                android:id="@+id/tvMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onMapCkick"
+                android:text="@string/main_map"
+                android:textSize="32sp"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onNavigationCkick"
+                android:src="@drawable/navigation"/>
+            <TextView
+                android:id="@+id/tvNavigation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onNavigationCkick"
+                android:text="@string/main_navigation"
+                android:textSize="32sp"
+                android:clickable="true"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

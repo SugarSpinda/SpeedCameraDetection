@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">測速照相偵測</string>
+
+    <string name="title_Map">Map</string>
+    <string name="msg_LocationNameNotFound">Location name not found</string>
+    <string name="msg_LocationNameIsEmpty">Location name is empty</string>
+    <string name="msg_MapNotReady">Map not ready</string>
+
+    <string name="msg_Alert1">確定重置里程數?</string>
+    <string name="text_btYes1">確認</string>
+    <string name="text_btNo1">取消</string>
+    <string name="title1">里程數歸零</string>
+
+    <string name="title_SwitchActivity">SwitchActivity</string>
+    <string name="main_map">顯示地圖</string>
+    <string name="main_navigation">設定路線</string>
+    <string name="msg_GpsNotTurnOn">請開啟GPS</string>
+    <string name="msg_MarkLocation">測速相機</string>
+    <string name="title_welcome">測速照相偵測</string>
+    <string name="text_no_camera">無測速照相</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/limit_110"
+        android:title="速限110km/hr" />
+    <item
+        android:id="@+id/limit_100"
+        android:title="速限100km/hr" />
+    <item
+        android:id="@+id/limit_90"
+        android:title="速限90km/hr" />
+
+</menu>
